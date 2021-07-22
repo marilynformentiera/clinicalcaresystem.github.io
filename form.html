@@ -1,0 +1,149 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Patient Registration Form</title>
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!--CSS-->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--Navbar-->
+  <div class="topnav" id="myTopnav">
+    <a href="flowchart.html" class="active">Flowchart</a>
+    <a href="form.html">Registration</a>
+  </div>
+  <!--Start of registration form-->
+  <div class="row">
+    <section class="section">
+      <header>
+        <h3>Patient Registration Form</h3>
+        <h4>Please complete this patient registration form with your information.</h4>
+      </header>
+      <main>
+        <form>
+          <!--Patient's Name-->
+          <div class="form-item box-item">
+            <label for="validationCustom01" class="form-label">Patient's Name</label>
+            <input type="text" class="form-control" id="validationCustom01" placeholder="First Name" value="" required>
+
+          </div>
+          <div class="form-item box-item">
+            <input type="text" name="name" class="tx1" placeholder="Middle Name" data-required>
+          </div>
+          <div class="form-item box-item">
+            <input type="text" name="name" class="tx1" placeholder="Last Name" data-required>
+          </div>
+          <!--Patient's Email-->
+          <div class="form-item box-item">
+            <label>Email</label>
+            <input type="text" name="name" class="tx1" placeholder="email@example.com" data-required>
+          </div>
+          <br>
+          <!--Patient's Address-->
+          <div class="form-item box-item">
+            <label>Patient's Address</label>
+            <input type="text" name="name" class="tx1" placeholder="Address" data-required>
+          </div>
+          <br>
+          <!--Patient's Gender-->
+          <div class="form-item box-item">
+            <div class="form-item-triple">
+              <div class="radio-label">
+                <label class="label">Gender</label>
+              </div>
+              <div class="form-item">
+                <input id="Male" type="radio" name="gender" value="Male" data-once>
+                <label for="Male">Male</label>
+              </div>
+              <div class="form-item">
+                <input id="Female" type="radio" name="gender" value="Female" data-once>
+                <label for="Female">Female</label>
+              </div>
+            </div>
+          </div>
+          <!--Patient's Marital status -->
+          <div class="form-item box-item">
+            <div class="form-item-triple">
+              <div class="radio-label">
+                <label class="label">Marital Status</label>
+              </div>
+              <div class="form-item">
+                <input id="sponsored" type="radio" name="gender2" value="sponsored" data-once>
+                <label for="sponsored">Single</label>
+              </div>
+              <div class="form-item">
+                <input id="sponsored" type="radio" name="gender2" value="sponsored" data-once>
+                <label for="sponsored">Married</label>
+              </div>
+              <div class="form-item">
+                <input id="sponsored" type="radio" name="gender2" value="sponsored" data-once>
+                <label for="sponsored">Divorced</label>
+              </div>
+              <div class="form-item">
+                <input id="sponsored" type="radio" name="gender2" value="sponsored" data-once>
+                <label for="sponsored">Widow</label>
+              </div>
+            </div>
+          </div>
+          <!--Patient's Past Medical history -->
+          <div class="form-item">
+            <div class="form-item-triple">
+              <div class="radio-label">
+                <label class="label">Past Medical History</label>
+              </div>
+              <div class="form-item">
+                <input id="sponsored" type="radio" name="gender2" value="sponsored" data-once>
+                <label for="sponsored">Anemia</label>
+              </div>
+              <div class="form-item">
+                <input id="sponsored" type="radio" name="gender2" value="sponsored" data-once>
+                <label for="sponsored">Asthma</label>
+              </div>
+              <div class="form-item">
+                <input id="sponsored" type="radio" name="gender2" value="sponsored" data-once>
+                <label for="sponsored">Diabetes</label>
+              </div>
+            </div>
+            <div class="form-item">
+              <div class="form-item-triple">
+                <div class="form-item">
+                  <input id="sponsored" type="radio" name="gender2" value="sponsored" data-once>
+                  <label for="sponsored">Ulcer</label>
+                </div>
+                <div class="form-item">
+                  <input id="sponsored" type="radio" name="gender2" value="sponsored" data-once>
+                  <label for="sponsored">Hypertension</label>
+                </div>
+                <div class="form-item">
+                  <input id="sponsored" type="radio" name="gender2" value="sponsored" data-once>
+                  <label for="sponsored">Other: </label>
+                </div>
+              </div><br><br>
+              <!--Patient's reason for visit -->
+              <div class="form-item box-item">
+                <label for="validationCustom01" class="form-label">Reason for Visit:</label>
+                <input type="text" class="form-control" id="validationCustom01" placeholder="Reason" value="" required>
+              </div>
+              <br><br>
+              <!--Submit button -->
+              <div class="text-center">
+                <p class="lead">
+                  <a class="btn btn-primary btn-lg" href="submit.html" role="button">Register</a>
+                </p>
+              </div>
+
+            </div>
+        </form>
+
+      </main>
+  </div>
+  <!--bootstrap-->
+  <script rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
